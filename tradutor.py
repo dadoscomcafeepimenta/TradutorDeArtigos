@@ -23,8 +23,8 @@ def extract_text_from_url(url):
 		return None
 
 client = AzureChatOpenAI(
-	azure_endpoint="https://wanessa-oai-dio-bootcamp-dev-eastus-001.openai.azure.com/",
-	api_key="6aeOOmDSRWVLheeZ3VH6V82xhP4eh4P0swMvfjlzNcxvK11lqOULJQQJ99AKACHYHv6XJ3w3AAABACOGIKfn",
+	azure_endpoint="put your endpoint here",
+	api_key="put your key here",
 	api_version="2024-02-15-preview",
 	deployment_name="gpt-4o-mini",
 	max_retries=0
